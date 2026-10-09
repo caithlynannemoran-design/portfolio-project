@@ -205,3 +205,45 @@ body {
     margin-top: auto;
     text-align: center;
 }
+
+.experience {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.experience h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+}

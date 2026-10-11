@@ -367,3 +367,94 @@ section {
     background-color: #1a73e8;
     transform: translateY(-2px);
 }
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        gap: 5px;
+    }
+
+    .intro-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .first-intro,
+    .second-intro {
+        width: 100%;
+    }
+
+    .hero p {
+        max-width: 100%;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .hobbies,
+    .goal {
+        width: 100%;
+    }
+
+    .skills,
+    .projects,
+    .experience {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section {
+        scroll-margin-top: 130px;
+    }
+
+    .hero {
+        padding: 20px 15px;
+        margin: 30px auto;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .about,
+    .contact {
+        margin: 30px 15px;
+        padding: 20px;
+    }
+
+    .skill-card,
+    .project-card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    th, td {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .send-button {
+        width: 100%;
+    }
+}

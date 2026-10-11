@@ -302,3 +302,68 @@ html {
 section {
     scroll-margin-top: 80px;
 }
+
+.contact {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid #333;
+    border-radius: 15px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input,
+.form-group textarea {
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #1a73e8;
+    box-shadow: 0 0 6px rgba(26, 115, 232, 0.5);
+}
+
+.send-button {
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.send-button:hover {
+    background-color: #1a73e8;
+    transform: translateY(-2px);
+}
